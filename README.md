@@ -14,7 +14,7 @@ Run `git clone https://github.com/xjapanseikima/Demo_project.git`
 `mvn clean package`
  4. change to target directory
 `cd target`
- 5. please move the Demo_project/src/main/resources/dataset/ to the target folder
+ 5.!!!!!!(I) please move the Demo_project/src/main/resources/dataset/ to the target folder
  6. running jar. 
 `java -jar demo-0.0.1-SNAPSHOT.jar`
 
