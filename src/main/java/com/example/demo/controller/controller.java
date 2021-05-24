@@ -13,7 +13,7 @@ import java.util.Optional;
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 public class controller {
-    File myObj = new File(System.getProperty("user.dir")+"/src/main/resources/dataset/project-data.txt");
+    File myObj = new File(System.getProperty("user.dir")+"/resources/dataset/project-data.txt");
         @GetMapping("/getClient/{color}" )
         public ArrayList getClient(@PathVariable("color") String color ) throws FileNotFoundException {
             Service service = new Service(myObj);
