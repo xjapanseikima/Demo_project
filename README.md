@@ -7,9 +7,9 @@
 
 ## Running Backend
  1. Clone project 
-Run `https://github.com/xjapanseikima/Demo_project.git`
+Run `git clone https://github.com/xjapanseikima/Demo_project.git`
  2. Change to directory 
-`cd demo`
+`cd Demo_project`
  3. build package 
 `mvn clean package`
  4. change to target directory
