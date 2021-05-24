@@ -33,7 +33,7 @@ https://nodejs.org/en/download/
 `cd dist/app`
 7. run the frontend 
 `ng serve`
-#  (&#x1F534;) <span style="font-size:larger;">Never used force push again!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I almost ruin my whole project </span>
+#  (&#x1F534;) <span style="font-size:larger;">Never used force push again. Almost ruin my whole project by this mistake!</span>
 
 
 
