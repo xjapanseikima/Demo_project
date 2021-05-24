@@ -23,13 +23,15 @@ Run `git clone https://github.com/xjapanseikima/Demo_project.git`
 https://nodejs.org/en/download/
 2. Install Angluar CLI via npm 
 `npm install -g @angular/cli`
-3. Change directoy to Angular project package (the package called app which is under root file) 
+3. Install Angurlar package
+`npm install --save-dev @angular-devkit/build-angular`
+5. Change directoy to Angular project package (the package called app which is under root file) 
 `cd app`
-4.  Build the project 
+5.  Build the project 
 `ng build`
-5. change to the dist/app 
+6. change to the dist/app 
 `cd dist/app`
-6. run the frontend 
+7. run the frontend 
 `ng serve`
 
 
