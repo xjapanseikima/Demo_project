@@ -59,12 +59,40 @@
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <filtering>true</filtering><!-- if it is neccessary -->
+                <directory>${basedir}/src/main/resources/dataset</directory><!-- from -->
+                <targetPath>${basedir}/target/resources/dataset</targetPath><!-- to -->
+                <includes><!-- what -->
+                    <include>project-data.txt</include>
+                </includes>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>copy-resources</id>-->
+<!--                        <phase>validate</phase>-->
+<!--                        <configuration>-->
+<!--                            <outputDirectory>${basedir}/target/dataset</outputDirectory>-->
+<!--                            <resources>-->
+<!--                                <resource>-->
+<!--                                    <directory>${basedir}/main/resources/dataset</directory>-->
+<!--                                    <filtering>true</filtering>-->
+<!--                                </resource>-->
+<!--                            </resources>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+
             </plugin>
         </plugins>
+
     </build>
+
 
 </project>
